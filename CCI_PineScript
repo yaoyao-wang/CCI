@@ -1,0 +1,24 @@
+//version = 4
+strategy("Yaonology CCI Tutoring", overlay=false, default_qty_type = strategy.percent_of_equity, default_qty_value = 100, currency = currency.USD, initial_capital = 10000, commission_type = strategy.commission.percent, commission_value = 0)
+
+//Step Two: Parameter Setting
+c = cci(close, 20)
+
+//Step Three: Plotting
+plot(c, color = color.black)
+p1 = plot(100, color = bar_index % 2 == 0 ? color.green : #00000000)
+p2 = plot(-100, color = bar_index % 2 == 0 ? color.green : #00000000)
+fill(p1, p2, color = color.green)
+
+//Step Four: Strategy Entry and Strategy Close
+
+//Strategy One: Bull/Bear Trend
+if crossover(c, 100)
+    strategy.entry(id = "cci")
+  
+//Strategy Two: Bull/Bear Trend Against Market
+if crossover(c, -100)
+    strategy.entry(id = "cci", long = true)
+
+if crossover(c, 100)
+    strategy.close(id = "cci")
