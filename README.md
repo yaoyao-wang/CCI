@@ -34,13 +34,13 @@ However, if the stock price moves up and CCI goes down, what should the trader d
 
 ### Bull/Bear Trend
 
-![](image/CCI_BullBear_Trend.png)
+![](image/CCI_BullBear_Trend.jpg)
 
 ## 4. Commodity Channel Index Strategy
 
 ### Bull/Bear Trend
 
-![](image/CCI_BullBear_Strategy.png)
+![](image/CCI_BullBear_Strategy.jpg)
 
 ## 5. Tradingview Pine Script
 
