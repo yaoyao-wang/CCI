@@ -3,7 +3,7 @@
 ### The formula for Commodity Channel Index (CCI)
 
 <p float="left">
-    <img src="image/CCI_Formula.png" width="500" height="300" />
+    <img src="image/CCI_Formula.png" width="500" height="500" />
     
 Commodity Channel Index(CCI) was developed by Donald Lambert, which is a momentum-based oscillator used to help determine when an investment vehicle is reaching a condition of being overbought or oversold lines. It is also used to assess price trend direction and strength. This information allows traders to determine if they want to enter or exit a trade, refrain from taking a trade, or add to an existing position. In this way, the indicator can be used to provide trade signals when it acts in a certain way.
 
@@ -35,7 +35,7 @@ However, if the stock price moves up and CCI goes down, what should the trader d
 
 ### Bull/Bear Trend
 
-![](image/CCI_BullBear_Trend.jpg)
+![](image/CCI_Trend.png)
 
 ## 4. Commodity Channel Index Strategy
 
